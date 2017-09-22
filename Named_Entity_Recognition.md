@@ -34,8 +34,8 @@ for (String sentence : testCase)
 ### 1.2 算法过程：
 - 第一步：分词。
   - 配置初始化（包括：执行字符正规化（繁体->简体，全角->半角，大写->小写）、多线程并行分词）
-  
-- 第一步：分词。
+  - HMM-Viterbi分词
+- 第二步：
 
 ## 参考资料
 1. [实战HMM-Viterbi角色标注中国人名识别](http://www.hankcs.com/nlp/chinese-name-recognition-in-actual-hmm-viterbi-role-labeling.html)
