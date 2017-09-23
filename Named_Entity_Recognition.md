@@ -48,9 +48,9 @@ for (String sentence : testCase)
 * 第一步：分词 
     * 配置初始化（包括：执行字符正规化（繁体->简体，全角->半角，大写->小写）、多线程并行分词）：` CharTable.normalization(charArray)`、`config.threadNumber > 1 && charArray.length > 10000`。这里字符串不需要正规化，并且其长度小于10000，也不需要进行多线程并行分词。
     * 生成一元词网
-        * 1.生成词网：`WordNet wordNetAll = new WordNet(sentence)`，词网结果：
-        ```java
-        0:[ ]
+        * 1.生成词网：`WordNet wordNetAll = new WordNet(sentence)`，词网结果如下
+        ```java
+        0:[ ]
         1:[]
         2:[]
         3:[]
